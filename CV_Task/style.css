@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: white;
+    font-family: calibri;
+    padding: 0;
+    border: 0;
+    
+}
+
+header {
+    font-weight: 900;
+    color: #35adf8;
+}
+
+h4 {
+    margin: 0 0 10px 2.5rem ;
+}
+
+h3 {
+    margin: -8px 0 1rem;
+    font-weight: 700;
+    color: #2bacfd;
+} 
+
+p {
+    margin:0;
+}
+.gap {
+    margin-top: 1rem;
+}
+hr {
+    width: 65%;
+    margin-left: 0;
+    margin-top: -1rem;
+    border-top: 2px solid #26abfd;
+
+}
+@media screen and (max-width: 500px) { 
+    .rightside {
+        width: 8rem;
+    }
+
+}    
+
+h2 {
+    margin-bottom: .5rem;
+    font-size: 24px;
+    margin-left: 2.5rem;
+
+}
+
+.maj {
+/*margin: 1rem 0;*/
+text-align: left;
+}
+
+@media screen and (max-width: 162.5rem) {
+    img {
+        height: 2.5rem;
+       
+        padding: 0;
+        border: 0;
+        width: 60%;
+        display: flex;
+        margin-left: 0;
+        margin-right: 2rem;
+      
+    
+    }
+    
+}
+
+    /* Create two unequal columns that floats next to each other */
+
+.column {
+    float: left;
+    padding: 40px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+    width: 70%;
+}
+
+.right {
+    width: 30%;
+}
+table { 
+    color:#55bdfd;
+    font-size: 14px;
+    font-weight: 500 ;
+}
+
+th { 
+    font-weight: 700 ;
+    font-size: 16px;
+    color:#3c7aff;
+}
+
+th, td { 
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+    outline: none;
+}
+
+@media screen and (max-width: 500px) { 
+    section { 
+        width: 150px;
+        margin: auto;
+       
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mail {
+        font-size: 10px;
+        
+      }
+}
+
+.ef {
+    background-color: white;
+}
+
+section { 
+    font-weight: 600;
+    
+    background-color: #bde4fc;   
+}
+
+@media screen and (min-width: 1500px) {
+    #resp-table {
+        width: 50%;
+    }
+}
+
+#resp-table { 
+    width: 35%;
+    background-position: center;
+    overflow-x:auto;
+}
+
+a, .a { 
+    color: rgb(35, 132, 235) ;
+}
+
+a:hover { 
+    color: rgb(232, 149, 243);
+}
+
+.edu1, .worke {
+    background-color: #bde4fc;
+}
